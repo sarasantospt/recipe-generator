@@ -7,43 +7,46 @@
     <title>AI Recipe Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI recipe generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter any ingredient to generate a
-        recipe"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        1/2 cup of sugar
-        <br />
-        3 eggs
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/sarasantospt" target="_blank">Sara Santos</a>
-      and is open-sourced on
-      <a
-        href="https://github.com/sarasantospt/recipe-generator"
-        target="_blank"
-      >
-        GitHub</a
-      >
-      and hosted on
-      <a href="https://ai-recipe-generator-sara.netlify.app/" target="_blank">
-        Netlify.</a
-      >
-    </footer>
-
+    <div class="container">
+      <header>
+        <h1>AI Recipe Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter any ingredient to generate a recipe..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">
+          1/2 cup of sugar
+          <br />
+          3 eggs
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/sarasantospt" target="_blank"
+          >Sara Santos</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/sarasantospt/recipe-generator"
+          target="_blank"
+        >
+          GitHub</a
+        >
+        and hosted on
+        <a href="https://ai-recipe-generator-sara.netlify.app/" target="_blank">
+          Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
