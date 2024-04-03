@@ -14,19 +14,24 @@
         <h1>AI Recipe Generator</h1>
       </header>
       <main>
-        <form id="recipe-generator-form">
-          <input
-            type="text"
-            placeholder="Enter any ingredient to generate a recipe..."
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="recipe" id="recipe"></div>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Enter any ingredient to generate a recipe..."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <small class="user-hint"
+            >i.e: pancakes, chicken, brownies etc...</small
+          >
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
       <footer>
         This AI project was coded by
