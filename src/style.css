@@ -1,14 +1,22 @@
 body {
-  background-color: bisque;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/121/723/original/food.jpeg?1712231611");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: "Courier New", Courier, monospace;
 }
 
 a {
-  color: #8881f5;
+  color: #128240;
+}
+
+a:hover {
+  color: rgb(30, 173, 20);
 }
 
 .container {
-  margin: 70px auto;
+  margin: 65px auto;
   max-width: 600px;
 }
 
@@ -20,8 +28,12 @@ h1 {
   font-weight: 800;
   line-height: 2;
   font-size: 45px;
-  color: #8881f5;
+  color: rgb(29, 134, 102);
   text-align: center;
+}
+
+h1:hover {
+  color: #22c217;
 }
 
 .form-container {
@@ -45,7 +57,7 @@ form {
 
 .instructions {
   padding: 15px;
-  border: 2px solid goldenrod;
+  border: 2px solid #22c217;
   width: 80%;
   font-size: 15px;
   border-radius: 15px;
@@ -54,7 +66,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #de8d3c;
+  background: #22c217;
   color: white;
   border: none;
   font-weight: 500;
@@ -66,7 +78,7 @@ form {
 }
 
 .submit-button:hover {
-  background: #f79001;
+  background: #128240;
   cursor: pointer;
 }
 
@@ -76,7 +88,8 @@ form {
   padding: 20px;
   line-height: 1.5;
   border-radius: 15px;
-  border-left: 3px solid goldenrod;
+  border-left: 3px solid rgb(27, 198, 50);
+  border-right: 3px solid rgb(27, 198, 50);
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.09);
 }
 
@@ -90,7 +103,7 @@ form {
 
 footer {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 30px;
 }
 
