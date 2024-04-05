@@ -20,15 +20,21 @@ a:hover {
   max-width: 600px;
 }
 
+::placeholder {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+
 header {
   margin-bottom: 5px;
 }
 
 h1 {
-  font-weight: 800;
+  font-weight: 900;
   line-height: 2;
-  font-size: 45px;
-  color: rgb(29, 134, 102);
+  font-size: 50px;
+  font-style: italic;
+  color: #008000;
   text-align: center;
 }
 
@@ -42,6 +48,9 @@ h1:hover {
   border-radius: 15px;
   box-shadow: 0px 20px 60px rgba(122, 234, 131, 0.475);
   padding: 15px 20px;
+  margin-top: 0px;
+  border-left: 3px solid rgb(27, 198, 50);
+  border-right: 3px solid rgb(27, 198, 50);
 }
 
 form {
